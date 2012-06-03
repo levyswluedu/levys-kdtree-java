@@ -6,6 +6,8 @@ Computer Science Department
 Lexington, VA 24450
 -----------------------------------------------
 
+Installing this JAR into local mvn repo--> mvn install:install-file -DgroupId=omegha.kdtree -DartifactId=kdtree -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true -Dfile=kd.jar
+
 A KD-tree is a data structure for efficient search and nearest-neighbor(s) computation of points in K-dimensional space. I like programming in Java and couldn't find any Java KD-tree implementations on the Web, so I wrote this one. (There appear to be better implementations now, like the ones mentioned on this site.) I also thank the following contributors:
 
     Eric Burnett, who patched a memory leak and suggested an improvement for memory allocation.
