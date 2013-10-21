@@ -34,6 +34,7 @@ The JAR file contains the class files of course, but also all the source and the
                                  (for example)                               
 
 Demonstration programs can be found under examples/ directory
+References ->http://home.wlu.edu/~levys/software/kd/
 
 Please send comments, questions, and suggestions to levys@wlu.edu.   Like all software I've posted, KDTree is released under the Gnu Lesser General Public License. 
 
