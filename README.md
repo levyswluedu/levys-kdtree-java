@@ -1,11 +1,5 @@
-# K-D tree
-## Java & C# implemenation
+# K-D tree (Java & C# implemenation)
 ### by Prof. Simon D. Levy
-
-Associate Professor and Department Head
-Computer Science Department
-407 Parmly Hall Washington & Lee University
-Lexington, VA 24450
 
 Installing this JAR into local mvn repo:
 
@@ -37,11 +31,18 @@ The JAR file contains the class files of course, but also all the source and the
                                  (for example)
 ```
 
-## License
-
-GNU GPLv3
-
 Demonstration programs can be found under examples/ directory
 
-Please send comments, questions, and suggestions to levys@wlu.edu.   Like all software I've posted, KDTree is released under the Gnu Lesser General Public License. 
+Please send comments, questions, and suggestions to levys@wlu.edu.
+
+## License
+
+Like all software I've posted, KDTree is released under the Gnu Lesser General Public License.
+
+## Contact
+
+Associate Professor and Department Head
+Computer Science Department
+407 Parmly Hall Washington & Lee University
+Lexington, VA 24450
 

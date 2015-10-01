@@ -1,3 +1,5 @@
+# Changelog
+
 + removed superfluous sqrt
 + added size()
 + support for Checker object
