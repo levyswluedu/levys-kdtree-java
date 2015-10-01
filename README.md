@@ -41,8 +41,8 @@ Like all software I've posted, KDTree is released under the Gnu Lesser General P
 
 ## Contact
 
-Associate Professor and Department Head
-Computer Science Department
-407 Parmly Hall Washington & Lee University
-Lexington, VA 24450
+  Associate Professor and Department Head
+  Computer Science Department
+  407 Parmly Hall Washington & Lee University
+  Lexington, VA 24450
 
