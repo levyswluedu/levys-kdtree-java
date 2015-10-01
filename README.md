@@ -1,12 +1,15 @@
-Java & C# implemenation of K-D tree by
-Prof. Simon D. Levy
+# Java & C# implemenation of K-D tree by Prof. Simon D. Levy
+
 Associate Professor and Department Head
 Computer Science Department
 407 Parmly Hall Washington & Lee University
 Lexington, VA 24450
------------------------------------------------
 
-Installing this JAR into local mvn repo--> mvn install:install-file -DgroupId=omegha.kdtree -DartifactId=kdtree -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true -Dfile=kd.jar
+Installing this JAR into local mvn repo:
+
+```
+mvn install:install-file -DgroupId=omegha.kdtree -DartifactId=kdtree -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true -Dfile=kd.jar
+```
 
 A KD-tree is a data structure for efficient search and nearest-neighbor(s) computation of points in K-dimensional space. I like programming in Java and couldn't find any Java KD-tree implementations on the Web, so I wrote this one. (There appear to be better implementations now, like the ones mentioned on this site.) I also thank the following contributors:
 
@@ -22,6 +25,7 @@ The file kd.jar contains the Java class edu.wlu.cs.levy.CG.KDTree, which support
 
 The JAR file contains the class files of course, but also all the source and the Makefile, for anyone wishing to hack the code (KDTree.nearest could probably be improved). The demonstration programs kddemo, kdtime, kdrange, and kdnbrs show you how to use the KDTree class. To run these programs, do the following in Unix (or the equivalent Java commands on your platform);
 
+```
 % javac -classpath .:kd.jar kddemo.java
 % javac -classpath .:kd.jar kdrange.java
 % javac -classpath .:kd.jar kdtime.java
@@ -32,6 +36,8 @@ The JAR file contains the class files of course, but also all the source and the
                                  (for example)                               
 % java -classpath .:kd.jar kdnbrs 10000 3 100 
                                  (for example)                               
+```
+
 
 Demonstration programs can be found under examples/ directory
 
